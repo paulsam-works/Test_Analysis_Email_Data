@@ -14,4 +14,29 @@ Simliar thing has been done using scala and solution is available under EmailDat
 Assumtion::
 Due to access issue could not be able to test this on AWS. Codes are tested in local environment keeping the constraints that all the mail file will be available in
 some input directory. 
-
+Edit View
+from il • 47125 • httpsc •| Sectio • Intellig• Aclosi•linker.txt
+H1v BIe
+File
+Objective of this pilot is to implement Ontologies & Knowledge Graph, for a high priority supply chain usecase ine - eBOM navigation to demonstrate business impact.
+- Data Source Layer
+Redshift (ODP Database) provides the core entity layer, extracted monthly as CSV files using AWS Glue.
+Ontology (from Protégé) provides the Bill of Materials (BOM) semantic model, exported as RDF on an ad-hoc basis.
+Data Processing Layer
+AWS Processing
+AWS Glue extracts data from Redshift and unloads it into Amazon S3.
+Data undergoes transformations, dataset joins, and is converted into RDF Triples.
+•
+The final output is written in TT format.
+Graph Processing
+•
+Neptune Bulk Loader ingests transformed TTL files from S3 into Amazon Neptune.
+Neptune stores the integrated Knowledge Graph.
+Consumption Layer
+Graph Visualization
+•
+Neptune Workbench / Notebook enables graph-native exploration using a Jupyter based interface.
+Relational Visualization
+Neptune data can be converted into relational form and queried using:
+Amazon Athena
+Supports SQL-like querying and ad-hoc analytics over graph data.
