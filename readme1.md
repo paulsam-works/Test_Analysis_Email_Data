@@ -25,3 +25,13 @@ This is the most visible business impact: removing the need for SPARQL or comple
 Natural Language to SPARQL (NL2Query): A user asks: "Show me all assemblies affected if Part #405 is delayed by two weeks." GenAI translates this into the complex SPARQL query required for a multi-level graph traversal.
 
 GraphRAG (Retrieval-Augmented Generation): When a user queries Power BI, the LLM doesn't just show a table; it provides a written summary: "The delay in Part #405 impacts 3 high-priority engine models. The critical path suggests switching to Supplier B as a mitigation."
+
+
+Updated Business Presentation Slide: The "AI-Enhanced" Pilot
+Slide Title: Building a Future-Ready, GenAI-Powered Supply Chain
+
+Robustness: GenAI reduces manual errors in data mapping by 40%, ensuring a cleaner "Digital Twin" of your eBOM.
+
+Speed to Insight: By replacing manual SPARQL coding with Natural Language interfaces, the "time-to-answer" for complex supply chain disruptions drops from hours to seconds.
+
+Explainability: The Knowledge Graph provides the "facts," while GenAI provides the "narrative." This combination eliminates AI "hallucinations" because every response is grounded in your specific Neptune data.
